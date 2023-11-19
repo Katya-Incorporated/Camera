@@ -43,10 +43,10 @@ android {
     buildToolsVersion = "34.0.0"
     ndkVersion = "26.1.10909125"
 
-    namespace = "app.grapheneos.camera"
+    namespace = "app.katyasystem.camera"
 
     defaultConfig {
-        applicationId = "app.grapheneos.camera"
+        applicationId = "app.katyasystem.camera"
         minSdk = 29
         targetSdk = 34
         versionCode = 64
