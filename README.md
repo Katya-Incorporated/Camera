@@ -20,10 +20,9 @@ CosmoLens is not just a camera app; it's a celestial canvas where Katya paints h
 
 ©
 A Dmitry Sorokin production. All rights reserved.
-Powered by Katya AI. 👽
-Copyright © 2021-2023 Katya, Inc
-Katya ® is a registered trademark
-Sponsored by REChain. 🪐
+Powered by Katya ® 👽 AI 🧠
+Copyright © 2021-2024 Katya Systems, LLCKatya ® is a registered trademark
+Sponsored by REChain ®️. 🪐
 hr@rechain.email
 p2p@rechain.email
 pr@rechain.email
