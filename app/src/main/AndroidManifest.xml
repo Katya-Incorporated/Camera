@@ -31,7 +31,6 @@
         android:theme="@style/Theme.App"
         tools:ignore="UnusedAttribute">
 
-
         <!-- The main activity of the app (supports all modes) -->
         <activity
             android:name=".ui.activities.MainActivity"
@@ -190,6 +189,7 @@
         <activity
             android:name=".ui.activities.QrTile"
             android:exported="true"
+            android:showWhenLocked="true"
             android:screenOrientation="nosensor"
             android:excludeFromRecents="true"/>
 

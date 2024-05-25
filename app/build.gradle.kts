@@ -43,13 +43,13 @@ android {
     buildToolsVersion = "34.0.0"
     ndkVersion = "26.1.10909125"
 
-    namespace = "app.katyasystem.camera"
+    namespace = "app.katyaos.camera"
 
     defaultConfig {
-        applicationId = "app.katyasystem.camera"
+        applicationId = "app.katyaos.camera"
         minSdk = 29
         targetSdk = 34
-        versionCode = 64
+        versionCode = 69
         versionName = versionCode.toString()
         resourceConfigurations.add("en")
     }
@@ -80,15 +80,6 @@ android {
         }
     }
 
-    compileOptions {
-        sourceCompatibility(JavaVersion.VERSION_17)
-        targetCompatibility(JavaVersion.VERSION_17)
-    }
-
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
-    }
-
     buildFeatures {
         viewBinding = true
         buildConfig = true
@@ -103,8 +94,9 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.core:core:1.13.1")
 
-    val cameraVersion = "1.4.0-beta01"
+    val cameraVersion = "1.4.0-alpha05"
     implementation("androidx.camera:camera-core:$cameraVersion")
     implementation("androidx.camera:camera-camera2:$cameraVersion")
     implementation("androidx.camera:camera-lifecycle:$cameraVersion")
